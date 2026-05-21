@@ -1,0 +1,38 @@
+/* Tarea 2: Cambiar el color de fondo de toda la página a gris */
+body {
+  background-color: #e0e0e0; /* Un gris suave y profesional */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tarea 2: Hacer que TODOS los h3 sean verdes por defecto */
+h3 {
+  color: #2ea44f; /* Verde */
+  transition: color 0.2s ease; /* Suaviza el cambio de color en la interacción */
+}
+
+/* Tarea 2: Crear una clase CSS que aplique color azul a tres h3 específicos (Ñ, O, P) */
+.texto-azul {
+  color: #0066cc; /* Azul */
+}
+
+/* Tarea 2: Aplicar color rojo a un solo h3 (Letra R) usando una clase diferente */
+.texto-rojo {
+  color: #d32f2f; /* Rojo */
+}
+
+/* =======================================================
+   Tarea 3: Interacción con CSS (:hover y :active)
+   ======================================================= */
+
+/* Cuando el usuario pasa el mouse por encima (:hover) de CUALQUIER h3 */
+h3:hover {
+  color: #ff9900 !important; /* Cambia a color Naranja al pasar el cursor */
+  cursor: pointer;
+}
+
+/* Cuando el usuario hace clic sostenido (:active) en CUALQUIER h3 */
+h3:active {
+  color: #8a2be2 !important; /* Cambia a color Morado al hacer clic */
+}
